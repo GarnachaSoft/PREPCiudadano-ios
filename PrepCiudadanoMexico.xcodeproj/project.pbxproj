@@ -12,6 +12,8 @@
 		181CE0EE2095A5B200E34022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181CE0ED2095A5B200E34022 /* Assets.xcassets */; };
 		181CE0F12095A5B200E34022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CE0EF2095A5B200E34022 /* LaunchScreen.storyboard */; };
 		181CE0F92095A74100E34022 /* WalktroughPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CE0F82095A74100E34022 /* WalktroughPageVC.swift */; };
+		1857D6A420A010D900F9DEE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1857D6A320A010D800F9DEE5 /* GoogleService-Info.plist */; };
+		CD1A9B0CCDD209DF1D0BDDB0 /* Pods_PrepCiudadanoMexico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA905A49A0A4EA6DE997B87 /* Pods_PrepCiudadanoMexico.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,10 @@
 		181CE0F02095A5B200E34022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181CE0F22095A5B200E34022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181CE0F82095A74100E34022 /* WalktroughPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalktroughPageVC.swift; sourceTree = "<group>"; };
+		1857D6A320A010D800F9DEE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A3213F53895D85B05A91F30 /* Pods-PrepCiudadanoMexico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCiudadanoMexico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrepCiudadanoMexico/Pods-PrepCiudadanoMexico.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA905A49A0A4EA6DE997B87 /* Pods_PrepCiudadanoMexico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrepCiudadanoMexico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F7CFD892545DD4B7147821 /* Pods-PrepCiudadanoMexico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCiudadanoMexico.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrepCiudadanoMexico/Pods-PrepCiudadanoMexico.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1A9B0CCDD209DF1D0BDDB0 /* Pods_PrepCiudadanoMexico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				181CE0E52095A5B000E34022 /* PrepCiudadanoMexico */,
 				181CE0E42095A5B000E34022 /* Products */,
+				4B586EF9A6728320731EE316 /* Pods */,
+				ACB6AFDC44AFA2C51A671323 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				181CE0ED2095A5B200E34022 /* Assets.xcassets */,
 				181CE0EF2095A5B200E34022 /* LaunchScreen.storyboard */,
 				181CE0F22095A5B200E34022 /* Info.plist */,
+				1857D6A320A010D800F9DEE5 /* GoogleService-Info.plist */,
 			);
 			path = PrepCiudadanoMexico;
+			sourceTree = "<group>";
+		};
+		4B586EF9A6728320731EE316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A3213F53895D85B05A91F30 /* Pods-PrepCiudadanoMexico.debug.xcconfig */,
+				F6F7CFD892545DD4B7147821 /* Pods-PrepCiudadanoMexico.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACB6AFDC44AFA2C51A671323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA905A49A0A4EA6DE997B87 /* Pods_PrepCiudadanoMexico.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181CE0F52095A5B200E34022 /* Build configuration list for PBXNativeTarget "PrepCiudadanoMexico" */;
 			buildPhases = (
+				7FB88FF2131DEB5C903B8DF2 /* [CP] Check Pods Manifest.lock */,
 				181CE0DF2095A5B000E34022 /* Sources */,
 				181CE0E02095A5B000E34022 /* Frameworks */,
 				181CE0E12095A5B000E34022 /* Resources */,
+				6334B020EE112331567FE0E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +152,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				181CE0F12095A5B200E34022 /* LaunchScreen.storyboard in Resources */,
+				1857D6A420A010D900F9DEE5 /* GoogleService-Info.plist in Resources */,
 				181CE0EE2095A5B200E34022 /* Assets.xcassets in Resources */,
 				181CE0EC2095A5B000E34022 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6334B020EE112331567FE0E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrepCiudadanoMexico/Pods-PrepCiudadanoMexico-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrepCiudadanoMexico/Pods-PrepCiudadanoMexico-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB88FF2131DEB5C903B8DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrepCiudadanoMexico-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		181CE0DF2095A5B000E34022 /* Sources */ = {
@@ -278,15 +355,13 @@
 		};
 		181CE0F62095A5B200E34022 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3213F53895D85B05A91F30 /* Pods-PrepCiudadanoMexico.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y2A2F444P;
 				INFOPLIST_FILE = PrepCiudadanoMexico/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garnachasoft.PrepCiudadanoMexico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +371,13 @@
 		};
 		181CE0F72095A5B200E34022 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F7CFD892545DD4B7147821 /* Pods-PrepCiudadanoMexico.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y2A2F444P;
 				INFOPLIST_FILE = PrepCiudadanoMexico/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.garnachasoft.PrepCiudadanoMexico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
