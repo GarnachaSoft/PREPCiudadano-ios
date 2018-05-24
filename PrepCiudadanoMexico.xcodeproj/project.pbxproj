@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180FC36820B6750A00CE789D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FC36720B6750A00CE789D /* CollectionViewCell.swift */; };
 		181CE0E72095A5B000E34022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CE0E62095A5B000E34022 /* AppDelegate.swift */; };
 		181CE0EC2095A5B000E34022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CE0EA2095A5B000E34022 /* Main.storyboard */; };
 		181CE0EE2095A5B200E34022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181CE0ED2095A5B200E34022 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180FC36720B6750A00CE789D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		181CE0E32095A5B000E34022 /* PrepCiudadanoMexico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepCiudadanoMexico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181CE0E62095A5B000E34022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181CE0EB2095A5B000E34022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				181CE0F82095A74100E34022 /* WalktroughPageVC.swift */,
 				184D006520AF9BD00041A96A /* MainManuVC.swift */,
 				181CE0EA2095A5B000E34022 /* Main.storyboard */,
+				180FC36720B6750A00CE789D /* CollectionViewCell.swift */,
 				181CE0ED2095A5B200E34022 /* Assets.xcassets */,
 				181CE0EF2095A5B200E34022 /* LaunchScreen.storyboard */,
 				181CE0F22095A5B200E34022 /* Info.plist */,
@@ -217,6 +220,7 @@
 			files = (
 				181CE0E72095A5B000E34022 /* AppDelegate.swift in Sources */,
 				181CE0F92095A74100E34022 /* WalktroughPageVC.swift in Sources */,
+				180FC36820B6750A00CE789D /* CollectionViewCell.swift in Sources */,
 				184D006620AF9BD00041A96A /* MainManuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
