@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		180FC36820B6750A00CE789D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FC36720B6750A00CE789D /* CollectionViewCell.swift */; };
+		180FC36A20B682E100CE789D /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180FC36920B682E100CE789D /* LogInVC.swift */; };
 		181CE0E72095A5B000E34022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CE0E62095A5B000E34022 /* AppDelegate.swift */; };
 		181CE0EC2095A5B000E34022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CE0EA2095A5B000E34022 /* Main.storyboard */; };
 		181CE0EE2095A5B200E34022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181CE0ED2095A5B200E34022 /* Assets.xcassets */; };
 		181CE0F12095A5B200E34022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181CE0EF2095A5B200E34022 /* LaunchScreen.storyboard */; };
 		181CE0F92095A74100E34022 /* WalktroughPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181CE0F82095A74100E34022 /* WalktroughPageVC.swift */; };
-		184D006620AF9BD00041A96A /* MainManuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D006520AF9BD00041A96A /* MainManuVC.swift */; };
+		184D006620AF9BD00041A96A /* MainMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D006520AF9BD00041A96A /* MainMenuVC.swift */; };
 		1857D6A420A010D900F9DEE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1857D6A320A010D800F9DEE5 /* GoogleService-Info.plist */; };
 		CD1A9B0CCDD209DF1D0BDDB0 /* Pods_PrepCiudadanoMexico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA905A49A0A4EA6DE997B87 /* Pods_PrepCiudadanoMexico.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		180FC36720B6750A00CE789D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		180FC36920B682E100CE789D /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
 		181CE0E32095A5B000E34022 /* PrepCiudadanoMexico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrepCiudadanoMexico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181CE0E62095A5B000E34022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181CE0EB2095A5B000E34022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +29,7 @@
 		181CE0F02095A5B200E34022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181CE0F22095A5B200E34022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181CE0F82095A74100E34022 /* WalktroughPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalktroughPageVC.swift; sourceTree = "<group>"; };
-		184D006520AF9BD00041A96A /* MainManuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainManuVC.swift; sourceTree = "<group>"; };
+		184D006520AF9BD00041A96A /* MainMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuVC.swift; sourceTree = "<group>"; };
 		1857D6A320A010D800F9DEE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A3213F53895D85B05A91F30 /* Pods-PrepCiudadanoMexico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrepCiudadanoMexico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrepCiudadanoMexico/Pods-PrepCiudadanoMexico.debug.xcconfig"; sourceTree = "<group>"; };
 		EDA905A49A0A4EA6DE997B87 /* Pods_PrepCiudadanoMexico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrepCiudadanoMexico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,9 +71,10 @@
 			children = (
 				181CE0E62095A5B000E34022 /* AppDelegate.swift */,
 				181CE0F82095A74100E34022 /* WalktroughPageVC.swift */,
-				184D006520AF9BD00041A96A /* MainManuVC.swift */,
-				181CE0EA2095A5B000E34022 /* Main.storyboard */,
+				184D006520AF9BD00041A96A /* MainMenuVC.swift */,
 				180FC36720B6750A00CE789D /* CollectionViewCell.swift */,
+				180FC36920B682E100CE789D /* LogInVC.swift */,
+				181CE0EA2095A5B000E34022 /* Main.storyboard */,
 				181CE0ED2095A5B200E34022 /* Assets.xcassets */,
 				181CE0EF2095A5B200E34022 /* LaunchScreen.storyboard */,
 				181CE0F22095A5B200E34022 /* Info.plist */,
@@ -221,7 +224,8 @@
 				181CE0E72095A5B000E34022 /* AppDelegate.swift in Sources */,
 				181CE0F92095A74100E34022 /* WalktroughPageVC.swift in Sources */,
 				180FC36820B6750A00CE789D /* CollectionViewCell.swift in Sources */,
-				184D006620AF9BD00041A96A /* MainManuVC.swift in Sources */,
+				180FC36A20B682E100CE789D /* LogInVC.swift in Sources */,
+				184D006620AF9BD00041A96A /* MainMenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

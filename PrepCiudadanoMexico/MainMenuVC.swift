@@ -1,5 +1,5 @@
 //
-//  MainManuVC.swift
+//  MainMenuVC.swift
 //  PrepCiudadanoMexico
 //
 //  Created by Juan Villalvazo on 18/05/18.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class MainManuVC: UIViewController, UICollectionViewDataSource,UICollectionViewDelegate {
+class MainMenuVC: UIViewController, UICollectionViewDataSource,UICollectionViewDelegate {
    
-    
+    let viewControllersIds = ["inicioSesion"]
     let imagenes = [UIImage(named:"tutoriales de programacion")]
     let titulos = ["Colaborar","Encuentra tu casilla","Resultados","PREP","Incidencias","Donativos","Sobre Nosotros"]
     let descripciones = ["Su apoyo es importante","Encuentre la casilla mas cercana","Consulta los resultados en tiempo real","Sobre el PREP","Incidencias en tiempo real","Tu aporte hace la diferencia","Nuestro equipo de trabajo"]
@@ -52,7 +52,18 @@ class MainManuVC: UIViewController, UICollectionViewDataSource,UICollectionViewD
         return celda
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        
+        let nombreViewController = viewControllersIds[0]
+        //viewControllersIds[indexPath.row]
     
+        let viewController = storyboard?.instantiateViewController(withIdentifier: nombreViewController)
+        
+        self.navigationController?.pushViewController(viewController!, animated: true)
+    
+    
+    }
     
 
     override func didReceiveMemoryWarning() {
